@@ -1,6 +1,6 @@
 package org.example;
 
-public class Fanta extends Producto{
+public class Fanta extends Bebida{
     public Fanta(int serie){
         super(serie);
     }
