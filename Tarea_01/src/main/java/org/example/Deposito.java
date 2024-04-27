@@ -10,6 +10,12 @@ public class Deposito<T> {
         arr.add(producto);
     }
     public T getProducto(){
+        if(arr.isEmpty()){
+            return null;
+        }
+        else{
+            return arr.remove(0);
+        }
     }
     public int getSize(){
     }
