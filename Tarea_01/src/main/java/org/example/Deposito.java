@@ -8,4 +8,6 @@ public class Deposito<T> {
     }
     public T getProducto(){
     }
+    public int getSize(){
+    }
 }
