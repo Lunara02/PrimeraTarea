@@ -6,7 +6,8 @@ public class Deposito<T> {
     public Deposito(){
         arr = new ArrayList<>();
     }
-    public void addProducto(){
+    public void addProducto(T producto){
+        arr.add(producto);
     }
     public T getProducto(){
     }
