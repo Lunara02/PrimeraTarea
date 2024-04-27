@@ -5,4 +5,6 @@ public class Expendedora {
     }
     public Producto ComprarProducto(){
     }
+    public Moneda getVuelto(){
+    }
 }
