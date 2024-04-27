@@ -7,4 +7,6 @@ public class Expendedora {
     }
     public Moneda getVuelto(){
     }
+    public int getmonVuSize(){
+    }
 }
