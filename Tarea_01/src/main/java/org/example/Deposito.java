@@ -6,4 +6,6 @@ public class Deposito<T> {
     }
     public void addProducto(){
     }
+    public T getProducto(){
+    }
 }
