@@ -3,6 +3,7 @@ package org.example;
 /**
  * Clase abstracta Bebida que representa un tipo de producto, hereda la propiedad serie.
  * Se usara para diferenciar los productos de tipo Bebida de los productos de tipo Dulces.
+ * @author braian
  */
 abstract public class Bebida extends Producto{
     /**

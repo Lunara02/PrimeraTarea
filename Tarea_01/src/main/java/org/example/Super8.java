@@ -3,6 +3,7 @@ package org.example;
 /**
  * Clase Super8, representa un Producto de tipo Dulces.
  * Implementa el metodo sabor (metodo abstracto de la clase Producto) del cual se obtiene su sabor.
+ * @author braian
  */
 public class Super8 extends Dulces{
     /**

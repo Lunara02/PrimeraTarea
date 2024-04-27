@@ -3,6 +3,7 @@ package org.example;
 /**
  * Clase Snickers, representa un Producto de tipo Dulces.
  * Implementa el metodo sabor (metodo abstracto de la clase Producto) del cual se obtiene su sabor.
+ * @author braian
  */
 public class Snickers extends Dulces{
     /**
