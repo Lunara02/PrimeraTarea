@@ -47,6 +47,7 @@ public class Expendedora {
         throw new PagoIncorrectoException();
     }
     public Moneda getVuelto(){
+        return monVu.getProducto();
     }
     public int getmonVuSize(){
     }
