@@ -1,8 +1,13 @@
 package org.example;
+/**
+ * Clase principal que contiene el método main para simular casos de compra y uso de una expendedora.
+ * @author Sebastian Ignacio Vega Varela
+ */
 
 public class Main {
     /**
      * Simulacion casos comprador y expendedora
+     * @param args argumentos de la línea de comandos (no utilizados en este caso).
      * @throws Exception En caso de excepciones
      * @author Sebastian Ignacio Vega Varela
      */
