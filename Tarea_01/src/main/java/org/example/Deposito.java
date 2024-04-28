@@ -5,6 +5,7 @@ import java.util.ArrayList;
  * Clase para crear depositos atra vez de un depósito genérico para almacenar productos.
  * @param <T> El tipo de producto que se almacenará en el depósito.
  * @author Sebastian Ignacio Vega Varela
+ * @author braian
  */
 public class Deposito<T> {
     private ArrayList<T> arr; // Lista que almacena productos en deposito
