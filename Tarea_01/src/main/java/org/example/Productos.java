@@ -6,12 +6,30 @@ package org.example;
  * @author Sebastian Ignacio Vega Varela
  */
 public enum Productos {
-    COCACOLA(900),  // Precio de CocaCola
-    SPRITE(800),    // Precio de Sprite
-    FANTA(600),     // Precio de Fanta
-    SNICKERS(1000), // Precio de Snickers
-    SUPER8(300);    // Precio de Super8
-    private int precio; // Precio del producto
+    /**
+     * Representa el producto CocaCola con un precio de 900.
+     */
+    COCACOLA(900),
+    /**
+     * Representa el producto Sprite con un precio de 800.
+     */
+    SPRITE(800),
+    /**
+     * Representa el producto Fanta con un precio de 600.
+     */
+    FANTA(600),
+    /**
+     * Representa el producto Snickers con un precio de 1000.
+     */
+    SNICKERS(1000),
+    /**
+     * Representa el producto Super8 con un precio de 300.
+     */
+    SUPER8(300);
+    /**
+     * Precio de cada producto.
+     */
+    private int precio;
     /**
      * Constructor privado de enum Productos.
      * @param precio El precio del producto.
