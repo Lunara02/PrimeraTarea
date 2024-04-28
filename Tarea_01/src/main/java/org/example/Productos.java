@@ -10,4 +10,7 @@ public enum Productos {
     private Productos(int precio){
         this.precio = precio;
     }
+    public int RetValor() {
+        return precio;
+    }
 }
