@@ -50,5 +50,6 @@ public class Expendedora {
         return monVu.getProducto();
     }
     public int getmonVuSize(){
+        return monVu.getSize();
     }
 }
