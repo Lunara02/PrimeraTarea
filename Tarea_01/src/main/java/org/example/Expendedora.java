@@ -17,20 +17,22 @@ public class Expendedora {
         if(m != null){
             if (m.getValor() >= cual.RetValor()) {
                 Deposito<? extends Producto> b = null;
-                if (cual.ordinal() == 0) {
-                    b = coca;
-                }
-                if (cual.ordinal() == 1) {
-                    b = sprite;
-                }
-                if (cual.ordinal() == 2) {
-                    b = fanta;
-                }
-                if (cual.ordinal() == 3) {
-                    b = snicker;
-                }
-                if (cual.ordinal() == 4) {
-                    b = super8;
+                switch (cual) {
+                    case COCACOLA:
+                        b = coca;
+                        break;
+                    case SPRITE:
+                        b = sprite;
+                        break;
+                    case FANTA:
+                        b = fanta;
+                        break;
+                    case SNICKERS:
+                        b = snicker;
+                        break;
+                    case SUPER8:
+                        b = super8;
+                        break;
                 }
                 if (b.getSize() != 0) {
                     for (int i = 0; i < (m.getValor() - cual.RetValor()) / 100; i++) {
