@@ -3,7 +3,7 @@ package org.example;
 /**
  * Clase Sprite, representa un Producto de tipo Bebida.
  * Implementa el metodo sabor (metodo abstracto de la clase Producto) del cual se obtiene su sabor.
- * @author braian
+ * @author Braian
  */
 public class Sprite extends Bebida{
     /**

@@ -2,7 +2,7 @@ package org.example;
 /**
  * Clase Producto que se usara polimorficamente para Dulces y Bebidas.
  * Define la propiedad serie, unica de cada instancia y el metodo sabor que debe ser implementado por las clases herederas.
- * @author braian
+ * @author Braian
  */
 abstract public class Producto {
     /** Int para almacenar el numero de serie del producto */
